@@ -1,6 +1,6 @@
 class TasksController < ApplicationController
     def index
-        p "Oiiiiii"
+        p "Testeee"
         render inertia: "home/index"
     end
 end
