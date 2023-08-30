@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Task, type: :model do
@@ -30,13 +32,13 @@ RSpec.describe Task, type: :model do
       description: 'First task with duplicated title',
       status: 'pending'
     )
-    
+
     duplicated_task = Task.new(
       title: 'Duplicated Task',
       description: 'Second task with duplicated title',
       status: 'completed'
     )
-    
+
     expect(duplicated_task).to_not be_valid
   end
 end
