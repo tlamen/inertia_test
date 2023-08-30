@@ -7,6 +7,12 @@
           null
         ]
       },
+      "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/helpers/tasks_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/models/task.rb": {
         "lines": [
           1,
@@ -51,6 +57,14 @@
         "branches": {
         }
       },
+      "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/controllers/tasks_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/jobs/application_job.rb": {
         "lines": [
           0,
@@ -75,6 +89,6 @@
         }
       }
     },
-    "timestamp": 1693399750
+    "timestamp": 1693402686
   }
 }
