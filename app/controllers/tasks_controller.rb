@@ -1,6 +1,8 @@
 class TasksController < ApplicationController
     def index
-        p "Testeee"
-        render inertia: "home/index"
+        tasks = Task.all
+        render inertia: "home/index", props: {
+            tasks: tasks
+        }
     end
 end
