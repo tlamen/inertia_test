@@ -12,14 +12,15 @@ class TasksController < ApplicationController
     Task.create!(task_params)
     redirect_to tasks_path
   rescue StandardError => e
-    redirect_to new_task_path, inertia: { errors: e }
+    puts e
+    render inertia: { errors: e }
   end
 
 
   private
 
-  def params
-    task_params.require(:task).permit(
+  def task_params
+    params.require(:task).permit(
       'title',
       'description',
       'status'

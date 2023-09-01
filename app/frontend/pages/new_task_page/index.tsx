@@ -11,13 +11,19 @@ const NewTaskPage = () => {
     ); 
     
     const submitTaskData = (e) => {
-        router.post('/tasks/create', {
+        router.post('/tasks', {
             task: {
                 title: data.title,
                 description: data.description,
                 status: data.status
-            }
-        });
+            }},
+            {
+                onSuccess: () => {
+                    alert("Tarefa criada com sucesso")
+                },
+                onError: (e) => alert(e),
+            },
+            );
     };
 
     return(
