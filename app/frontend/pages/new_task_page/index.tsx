@@ -22,7 +22,7 @@ const NewTaskPage = () => {
 
     return(
         <div>
-            <h1>Criar usuário</h1>
+            <h1 className="text-3xl font-bold underline text-center">Criar nova Tarefa</h1>
             <form onSubmit={submitTaskData}>
                 {/* <input type="text" value={data.tit} onChange={e => setData('name', e.target.value)}/> */}
                 <TextField 
