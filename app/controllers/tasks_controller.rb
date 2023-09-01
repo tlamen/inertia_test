@@ -12,7 +12,7 @@ class TasksController < ApplicationController
     Task.create!(task_params)
     redirect_to tasks_path
   rescue StandardError => e
-    render inertia: { errors: e }
+    redirect_to tasks_path, inertia: { errors: e }
   end
 
   def update
@@ -20,7 +20,7 @@ class TasksController < ApplicationController
     task.update!(task_params)
     redirect_to tasks_path
   rescue StandardError => e
-    render inertia: { errors: e }
+    redirect_to tasks_path, inertia: { errors: e }
   end
 
   def destroy
@@ -28,7 +28,7 @@ class TasksController < ApplicationController
     task.destroy!
     redirect_to tasks_path
   rescue StandardError => e
-    render inertia: { errors: e }
+    redirect_to tasks_path, inertia: { errors: e }
   end
 
   private

@@ -3,18 +3,24 @@
     "coverage": {
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/helpers/application_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/helpers/tasks_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/models/task.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
@@ -24,13 +30,72 @@
       },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/models/application_record.rb": {
         "lines": [
+          null,
+          null,
           1,
+          1,
+          null
+        ]
+      },
+      "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/controllers/tasks_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/channels/application_cable/channel.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           0,
@@ -41,24 +106,10 @@
       },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/channels/application_cable/connection.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/controllers/application_controller.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/controllers/tasks_controller.rb": {
-        "lines": [
           0,
           0
         ],
@@ -67,6 +118,8 @@
       },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/jobs/application_job.rb": {
         "lines": [
+          null,
+          null,
           0,
           null,
           null,
@@ -80,6 +133,8 @@
       },
       "/home/bernardo/Documentos/projetos/Switch Dreams/inertia_test/app/mailers/application_mailer.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           0,
@@ -89,6 +144,6 @@
         }
       }
     },
-    "timestamp": 1693402686
+    "timestamp": 1693593804
   }
 }
