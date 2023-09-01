@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <nav className="rounded 50 h-11">nav</nav>
+        <nav className="flex w-full justify-between pb-8">nav</nav>
     )
 }
 
