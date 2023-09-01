@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   root 'tasks#index'
 
-  get  '/tasks', to:'tasks#index'
-  post '/tasks', to:'tasks#create'
+  # get  '/tasks', to:'tasks#index'
+  # post '/tasks', to:'tasks#create'
+  # patch '/tasks/:id', to: 'tasks#update'
+  # delete '/tasks/:id', to: 'tasks#delete'
+  resources :tasks
 end
